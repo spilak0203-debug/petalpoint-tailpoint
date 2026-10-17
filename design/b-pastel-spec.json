@@ -1,0 +1,1056 @@
+{
+  "pack": "B Material You pastel",
+  "source": "design/b-pastel.pcraft",
+  "document": {
+    "width": 1960,
+    "height": 4130
+  },
+  "grid": {
+    "units": 32,
+    "pxPerUnit": 8,
+    "frameSizePx": 256,
+    "note": "Render a group's layers alone on transparency, crop [origin, origin + frameSizePx], scale to the target size. 1 grid unit = 1 px at 32 px."
+  },
+  "hotspotRule": "hotspot is in grid units (continuous, origin = frame top-left); pixel hotspot at size N = floor(h * N / 32), listed in hotspotPx",
+  "guides": "Groups other than cur/* and anim/* (page, board, guides, preview/*, hotspots) are not export sources.",
+  "sizes": [
+    32,
+    48,
+    64,
+    96,
+    128
+  ],
+  "palette": {
+    "outline": "#21005D",
+    "primary": "#6750A4",
+    "primaryContainer": "#D0BCFF",
+    "track": "#EADDFF",
+    "bodyGradient": [
+      "#FBF7FF",
+      "#EADDFF"
+    ],
+    "badge": "#7F67BE",
+    "breathPeakGradient": [
+      "#F1E8FF",
+      "#D9C7FF"
+    ],
+    "shadow": "#1D1036 32% multiply, distance 0.7u, size 1.6u, angle 90"
+  },
+  "roles": [
+    {
+      "registryName": "Arrow",
+      "labelKo": "일반 선택",
+      "group": "cur/Arrow",
+      "frameOrigin": [
+        64,
+        910
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        3,
+        2
+      ],
+      "hotspotPx": {
+        "32": [
+          3,
+          2
+        ],
+        "48": [
+          4,
+          3
+        ],
+        "64": [
+          6,
+          4
+        ],
+        "96": [
+          9,
+          6
+        ],
+        "128": [
+          12,
+          8
+        ]
+      },
+      "animated": true,
+      "animation": {
+        "kind": "breathe",
+        "frames": [
+          {
+            "group": "anim/Arrow/0",
+            "origin": [
+              64,
+              2070
+            ],
+            "durationMs": 1200
+          },
+          {
+            "group": "anim/Arrow/1",
+            "origin": [
+              374,
+              2070
+            ],
+            "durationMs": 160
+          },
+          {
+            "group": "anim/Arrow/2",
+            "origin": [
+              684,
+              2070
+            ],
+            "durationMs": 160
+          },
+          {
+            "group": "anim/Arrow/3",
+            "origin": [
+              994,
+              2070
+            ],
+            "durationMs": 560
+          },
+          {
+            "group": "anim/Arrow/4",
+            "origin": [
+              1304,
+              2070
+            ],
+            "durationMs": 160
+          },
+          {
+            "group": "anim/Arrow/5",
+            "origin": [
+              1614,
+              2070
+            ],
+            "durationMs": 160
+          }
+        ],
+        "loopMs": 2400,
+        "jiffies": [
+          72,
+          10,
+          10,
+          34,
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "registryName": "Help",
+      "labelKo": "도움말 선택",
+      "group": "cur/Help",
+      "frameOrigin": [
+        374,
+        910
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        3,
+        2
+      ],
+      "hotspotPx": {
+        "32": [
+          3,
+          2
+        ],
+        "48": [
+          4,
+          3
+        ],
+        "64": [
+          6,
+          4
+        ],
+        "96": [
+          9,
+          6
+        ],
+        "128": [
+          12,
+          8
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "AppStarting",
+      "labelKo": "백그라운드 작업",
+      "group": "cur/AppStarting",
+      "frameOrigin": [
+        684,
+        910
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        3,
+        2
+      ],
+      "hotspotPx": {
+        "32": [
+          3,
+          2
+        ],
+        "48": [
+          4,
+          3
+        ],
+        "64": [
+          6,
+          4
+        ],
+        "96": [
+          9,
+          6
+        ],
+        "128": [
+          12,
+          8
+        ]
+      },
+      "animated": true,
+      "animation": {
+        "kind": "rotate",
+        "frames": [
+          {
+            "group": "anim/AppStarting/0",
+            "origin": [
+              64,
+              2440
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/1",
+            "origin": [
+              374,
+              2440
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/2",
+            "origin": [
+              684,
+              2440
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/3",
+            "origin": [
+              994,
+              2440
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/4",
+            "origin": [
+              1304,
+              2440
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/5",
+            "origin": [
+              1614,
+              2440
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/6",
+            "origin": [
+              64,
+              2740
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/7",
+            "origin": [
+              374,
+              2740
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/8",
+            "origin": [
+              684,
+              2740
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/9",
+            "origin": [
+              994,
+              2740
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/10",
+            "origin": [
+              1304,
+              2740
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/AppStarting/11",
+            "origin": [
+              1614,
+              2740
+            ],
+            "durationMs": 100
+          }
+        ],
+        "loopMs": 1200,
+        "jiffies": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "registryName": "Wait",
+      "labelKo": "사용 중",
+      "group": "cur/Wait",
+      "frameOrigin": [
+        994,
+        910
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16,
+        16
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "animated": true,
+      "animation": {
+        "kind": "rotate",
+        "frames": [
+          {
+            "group": "anim/Wait/0",
+            "origin": [
+              64,
+              3110
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/1",
+            "origin": [
+              374,
+              3110
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/2",
+            "origin": [
+              684,
+              3110
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/3",
+            "origin": [
+              994,
+              3110
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/4",
+            "origin": [
+              1304,
+              3110
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/5",
+            "origin": [
+              1614,
+              3110
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/6",
+            "origin": [
+              64,
+              3410
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/7",
+            "origin": [
+              374,
+              3410
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/8",
+            "origin": [
+              684,
+              3410
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/9",
+            "origin": [
+              994,
+              3410
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/10",
+            "origin": [
+              1304,
+              3410
+            ],
+            "durationMs": 100
+          },
+          {
+            "group": "anim/Wait/11",
+            "origin": [
+              1614,
+              3410
+            ],
+            "durationMs": 100
+          }
+        ],
+        "loopMs": 1200,
+        "jiffies": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    },
+    {
+      "registryName": "Crosshair",
+      "labelKo": "정밀도 선택",
+      "group": "cur/Crosshair",
+      "frameOrigin": [
+        1304,
+        910
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16.5,
+        16.5
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          33,
+          33
+        ],
+        "96": [
+          49,
+          49
+        ],
+        "128": [
+          66,
+          66
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "IBeam",
+      "labelKo": "텍스트 선택",
+      "group": "cur/IBeam",
+      "frameOrigin": [
+        1614,
+        910
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16.5,
+        16
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          33,
+          32
+        ],
+        "96": [
+          49,
+          48
+        ],
+        "128": [
+          66,
+          64
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "NWPen",
+      "labelKo": "필기",
+      "group": "cur/NWPen",
+      "frameOrigin": [
+        64,
+        1250
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        3,
+        3
+      ],
+      "hotspotPx": {
+        "32": [
+          3,
+          3
+        ],
+        "48": [
+          4,
+          4
+        ],
+        "64": [
+          6,
+          6
+        ],
+        "96": [
+          9,
+          9
+        ],
+        "128": [
+          12,
+          12
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "No",
+      "labelKo": "사용할 수 없음",
+      "group": "cur/No",
+      "frameOrigin": [
+        374,
+        1250
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16,
+        16
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "SizeNS",
+      "labelKo": "수직 크기 조정",
+      "group": "cur/SizeNS",
+      "frameOrigin": [
+        684,
+        1250
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16,
+        16
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "SizeWE",
+      "labelKo": "수평 크기 조정",
+      "group": "cur/SizeWE",
+      "frameOrigin": [
+        994,
+        1250
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16,
+        16
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "SizeNWSE",
+      "labelKo": "대각선 방향 크기 조정 1",
+      "group": "cur/SizeNWSE",
+      "frameOrigin": [
+        1304,
+        1250
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16,
+        16
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "SizeNESW",
+      "labelKo": "대각선 방향 크기 조정 2",
+      "group": "cur/SizeNESW",
+      "frameOrigin": [
+        1614,
+        1250
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16,
+        16
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "SizeAll",
+      "labelKo": "이동",
+      "group": "cur/SizeAll",
+      "frameOrigin": [
+        64,
+        1590
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16,
+        16
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          16
+        ],
+        "48": [
+          24,
+          24
+        ],
+        "64": [
+          32,
+          32
+        ],
+        "96": [
+          48,
+          48
+        ],
+        "128": [
+          64,
+          64
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "UpArrow",
+      "labelKo": "대체 선택",
+      "group": "cur/UpArrow",
+      "frameOrigin": [
+        374,
+        1590
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        16,
+        2
+      ],
+      "hotspotPx": {
+        "32": [
+          16,
+          2
+        ],
+        "48": [
+          24,
+          3
+        ],
+        "64": [
+          32,
+          4
+        ],
+        "96": [
+          48,
+          6
+        ],
+        "128": [
+          64,
+          8
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "Hand",
+      "labelKo": "연결 선택",
+      "group": "cur/Hand",
+      "frameOrigin": [
+        684,
+        1590
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        11.7,
+        2
+      ],
+      "hotspotPx": {
+        "32": [
+          11,
+          2
+        ],
+        "48": [
+          17,
+          3
+        ],
+        "64": [
+          23,
+          4
+        ],
+        "96": [
+          35,
+          6
+        ],
+        "128": [
+          46,
+          8
+        ]
+      },
+      "animated": true,
+      "animation": {
+        "kind": "breathe",
+        "frames": [
+          {
+            "group": "anim/Hand/0",
+            "origin": [
+              64,
+              3780
+            ],
+            "durationMs": 1200
+          },
+          {
+            "group": "anim/Hand/1",
+            "origin": [
+              374,
+              3780
+            ],
+            "durationMs": 160
+          },
+          {
+            "group": "anim/Hand/2",
+            "origin": [
+              684,
+              3780
+            ],
+            "durationMs": 160
+          },
+          {
+            "group": "anim/Hand/3",
+            "origin": [
+              994,
+              3780
+            ],
+            "durationMs": 560
+          },
+          {
+            "group": "anim/Hand/4",
+            "origin": [
+              1304,
+              3780
+            ],
+            "durationMs": 160
+          },
+          {
+            "group": "anim/Hand/5",
+            "origin": [
+              1614,
+              3780
+            ],
+            "durationMs": 160
+          }
+        ],
+        "loopMs": 2400,
+        "jiffies": [
+          72,
+          10,
+          10,
+          34,
+          10,
+          10
+        ]
+      }
+    },
+    {
+      "registryName": "Pin",
+      "labelKo": "위치 선택",
+      "group": "cur/Pin",
+      "frameOrigin": [
+        994,
+        1590
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        3,
+        2
+      ],
+      "hotspotPx": {
+        "32": [
+          3,
+          2
+        ],
+        "48": [
+          4,
+          3
+        ],
+        "64": [
+          6,
+          4
+        ],
+        "96": [
+          9,
+          6
+        ],
+        "128": [
+          12,
+          8
+        ]
+      },
+      "animated": false,
+      "animation": null
+    },
+    {
+      "registryName": "Person",
+      "labelKo": "사용자 선택",
+      "group": "cur/Person",
+      "frameOrigin": [
+        1304,
+        1590
+      ],
+      "frameSizePx": 256,
+      "pxPerUnit": 8,
+      "hotspot": [
+        3,
+        2
+      ],
+      "hotspotPx": {
+        "32": [
+          3,
+          2
+        ],
+        "48": [
+          4,
+          3
+        ],
+        "64": [
+          6,
+          4
+        ],
+        "96": [
+          9,
+          6
+        ],
+        "128": [
+          12,
+          8
+        ]
+      },
+      "animated": false,
+      "animation": null
+    }
+  ]
+}
